@@ -5,6 +5,29 @@
     <title>Title</title>
 </head>
 <body>
-
+<canvas id=canvas" height="600" width="600" style="border: solid 5px blue"></canvas>
+<input type="button" id="score" class="score" value="01">
+<input type="button" id="play" class="play" value="Play" onclick="playGame()">
+<input type="button" id="reset" class="end" value="Reset" onclick="resetGame()">
+<script>
+    class Game {
+        constructor(snake,food,canvas) {
+            this.snake = snake;
+            this.food = food;
+            this.canvas = this.canvas
+        }
+        checkBreak() {
+            if (this.snake === this.canvas.border) {
+                alert(" Hay bam Reset de choi lai !");
+            }
+        }
+        checkScore() {
+            if (this.snake === this.food) {
+                this.snake += this.food;
+                return this.snake;
+            }
+        }
+    }
+</script>
 </body>
 </html>
