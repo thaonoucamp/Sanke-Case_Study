@@ -1,66 +1,45 @@
 class Snake {
-    constructor(image,x,y,width,height) {
-        this._image = image;
-        this._x = x;
-        this._y = y;
-        this._width = width;
-        this._height = height;
+    constructor(x,y,width,height,canvas) {
+        this.x = x;
+        this.y = y;
+        this.width = 30;
+        this.height = 30;
+        this.canvas = canvas;
+        }
+    draw() {
+        this.canvas.beginPath();
+        this.canvas.fillStyle = "#ff0000";
+        this.canvas.fillRect(this.x, this.y, this.width, this.height);
     }
+    update() {
 
-    get image() {
-        return this._image;
-    }
-
-    set image(value) {
-        this._image = value;
-    }
-
-    get x() {
-        return this._x;
-    }
-
-    set x(value) {
-        this._x = value;
-    }
-
-    get y() {
-        return this._y;
-    }
-
-    set y(value) {
-        this._y = value;
-    }
-
-    get width() {
-        return this._width;
-    }
-
-    set width(value) {
-        this._width = value;
-    }
-
-    get height() {
-        return this._height;
-    }
-
-    set height(value) {
-        this._height = value;
     }
     moveUp() {
-        switch (addEventListener() == )
+        this.direction = "up";
+        this.y = this.y - 30;
+        if (this.y === -30) {
+            this.y = 570;
+        }
     }
     moveDown() {
-
+        this.direction = "down";
+        this.y = this.y + 30;
+        if (this.y === 600) {
+            this.y = 0;
+        }
     }
     moveLeft() {
-
+        this.direction = "left";
+        this.x = this.x - 30;
+        if (this.x === -30) {
+            this.x = 570;
+        }
     }
     moveRight() {
-
+        this.direction = "right";
+        this.x = this.x + 30;
+        if (this.x === 600) {
+            this.x = 0;
+        }
     }
-    eatFood(value) {
-        value += 1;
-        return value;
-    }
-
 }
