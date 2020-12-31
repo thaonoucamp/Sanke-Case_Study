@@ -6,8 +6,6 @@
       <change afterPath="$PROJECT_DIR$/../Driver_OOp/car/road.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Driver_OOp/demo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Driver_OOp/driver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snake.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../caro-OOp/caro.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../remote-OOP/remote.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../remote-OOP/remote.js" afterDir="false" />
@@ -43,11 +41,8 @@
       <change beforePath="$PROJECT_DIR$/../OOP_RAT_CAT/CAT - RAT.html" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_RAT_CAT/CAT - RAT.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP_RAT_CAT/Cat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_RAT_CAT/Cat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP_RAT_CAT/Rat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_RAT_CAT/Rat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food.js" beforeDir="false" afterPath="$PROJECT_DIR$/food.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/snake.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake.html" beforeDir="false" afterPath="$PROJECT_DIR$/snake.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addProduct/addProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/../addProduct/addProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addProduct/all_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../addProduct/all_product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addProduct/deleteProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/../addProduct/deleteProduct.js" afterDir="false" />
@@ -212,7 +207,7 @@
       <updated>1609146434382</updated>
       <workItem from="1609146435536" duration="4961000" />
       <workItem from="1609222948565" duration="18491000" />
-      <workItem from="1609313615331" duration="10925000" />
+      <workItem from="1609313615331" duration="16593000" />
     </task>
     <servers />
   </component>
