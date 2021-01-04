@@ -1,13 +1,14 @@
-class snake{
+class Snake{
     constructor(game) {
         this.game = game;
         this.x = 0;
         this.y = 0;
-        this.grid = 20;
+        this.grid = 30;
         this.dx = this.grid;
         this.dy = 0;
         this.cell = [];
-        this.maxCells = 2;
+        this.maxCells = 1;
+        this.point = 0;
     }
 
     update() {
@@ -37,7 +38,6 @@ class snake{
             this.cell.pop();
         }
         this.catchHandle();
-        //console.log(this.cell);
 
     }
 
@@ -48,8 +48,7 @@ class snake{
         }
 
         if(!this.endGame()) {
-            this.game.context.font = '30px Arial';
-            this.game.context.fillText("Thua roi huhu", 200, 200);
+            this.endGame();
         }
     }
 
@@ -80,6 +79,7 @@ class snake{
     eat(x, y) {
         if(this.x == x && this.y == y){
             this.maxCells++;
+            this.point += 1;
             return true;
         }
         return false;
@@ -87,7 +87,7 @@ class snake{
 
     endGame(){
         for(let i = 1; i < this.cell.length; i++){
-            if(this.x == this.cell[i].x && this.y == this.cell[i].y){
+            if(this.cell[0].x == this.cell[i].x && this.cell[0].y == this.cell[i].y){
                 return false;
             }
         }

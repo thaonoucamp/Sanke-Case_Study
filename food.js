@@ -1,9 +1,9 @@
-class food{
+class Food{
     constructor(game) {
         this.game = game;
         this.x = 0;
         this.y = 0;
-        this.grid = 20;
+        this.grid = 30;
         this.update();
     }
 
