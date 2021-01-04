@@ -35,7 +35,7 @@ class Game{
         this.food.draw();
     }
     checkPoint() {
-        if (this.snake.endGame() == false) {
+        if (this.snake.endGame()) {
             alert("T O A N G !!!"+" Diem cua chu day : "+ this.snake.point);
         }
     }

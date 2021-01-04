@@ -18,32 +18,40 @@ class Snake{
         }
 
         if(this.x >= this.game.canvas.width){
-            this.x = 0;
+            // this.x = 0;
+            this.game.endGame();
         }
 
         else if(this.x < 0){
-            this.x = this.game.canvas.width;
+            // this.x = this.game.canvas.width;
+            this.game.endGame();
         }
 
         if(this.y >= this.game.canvas.height){
-            this.y = 0;
+            this.game.endGame();
+            // this.y = 0;
         }
 
         else if(this.y < 0){
-            this.y = this.game.canvas.height;
+            // this.y = this.game.canvas.height;
+            this.game.endGame();
         }
 
-        this.cell.unshift({x: this.x, y: this.y});
+        // Hàm cắt đuôi khi rắn di chuyển;
+        this.cell.unshift({
+                                 x: this.x,
+                                 y: this.y
+        });
         if(this.cell.length > this.maxCells){
             this.cell.pop();
         }
-        this.catchHandle();
+        this.direction();
 
     }
 
     draw() {
         for(let i = 0; i < this.cell.length; i++){
-            this.game.context.fillStyle = 'white';
+            this.game.context.fillStyle = ( i == 0 )? "red" : "white";
             this.game.context.fillRect(this.cell[i].x, this.cell[i].y, this.grid, this.grid);
         }
 
@@ -52,7 +60,7 @@ class Snake{
         }
     }
 
-    catchHandle() {
+    direction() {
         document.addEventListener('keydown', (e) => {
             if(e.which == 37 && this.dx == 0){
                 this.dx = -this.grid;
