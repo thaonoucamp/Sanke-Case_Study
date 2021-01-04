@@ -6,6 +6,7 @@
       <change afterPath="$PROJECT_DIR$/../Driver_OOp/car/road.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Driver_OOp/demo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Driver_OOp/driver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../caro-OOp/caro.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../remote-OOP/remote.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../remote-OOP/remote.js" afterDir="false" />
@@ -42,7 +43,11 @@
       <change beforePath="$PROJECT_DIR$/../OOP_RAT_CAT/Cat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_RAT_CAT/Cat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP_RAT_CAT/Rat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_RAT_CAT/Rat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food.js" beforeDir="false" afterPath="$PROJECT_DIR$/food.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snake.html" beforeDir="false" afterPath="$PROJECT_DIR$/snake.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/snake.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../addProduct/addProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/../addProduct/addProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addProduct/all_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../addProduct/all_product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addProduct/deleteProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/../addProduct/deleteProduct.js" afterDir="false" />
@@ -187,7 +192,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../move-object-OOP/demo.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -207,7 +212,7 @@
       <updated>1609146434382</updated>
       <workItem from="1609146435536" duration="4961000" />
       <workItem from="1609222948565" duration="18491000" />
-      <workItem from="1609313615331" duration="16593000" />
+      <workItem from="1609313615331" duration="35113000" />
     </task>
     <servers />
   </component>
@@ -223,13 +228,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609256876021" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1609234583617">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1609730919024">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609234583617" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1609313714001">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609730919024" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1609731692116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1609313714001" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1609731692116" />
   </component>
 </project>

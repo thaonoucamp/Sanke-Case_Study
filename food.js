@@ -1,14 +1,19 @@
-class Food {
-    constructor(width, height, x, y,canvas) {
-        this.width = width;
-        this.height = height;
-        this.x = x;
-        this.y = y;
-        this.canvas = canvas;
+class food{
+    constructor(game) {
+        this.game = game;
+        this.x = 0;
+        this.y = 0;
+        this.grid = 20;
+        this.update();
     }
-        draw() {
-            this.canvas.beginPath();
-            this.canvas.fillStyle = "#000000";
-            this.canvas.fillRect(this.x, this.y, this.width, this.height);
-        }
+
+    update() {
+        this.x = (Math.floor(Math.random()* (19 - 0)) + 0)*this.grid;
+        this.y = (Math.floor(Math.random()* (19 - 0)) + 0)*this.grid;
+    }
+
+    draw() {
+        this.game.context.fillStyle = 'green';
+        this.game.context.fillRect(this.x, this.y, this.grid, this.grid);
+    }
 }
