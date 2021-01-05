@@ -11,17 +11,16 @@ class Snake{
         this.point = 0;
     }
 
+    // Hàm lặp đối tượng Snake khi di chuyển;
     update() {
         if(this.endGame()){
             this.x += this.dx;
             this.y += this.dy;
         }
-
         if(this.x >= this.game.canvas.width){
             // this.x = 0;
             this.game.endGame();
         }
-
         else if(this.x < 0){
             // this.x = this.game.canvas.width;
             this.game.endGame();
@@ -45,21 +44,20 @@ class Snake{
         if(this.cell.length > this.maxCells){
             this.cell.pop();
         }
+
         this.direction();
 
     }
 
+    // Hàm vẽ tạo đối tượng Snake;
     draw() {
         for(let i = 0; i < this.cell.length; i++){
             this.game.context.fillStyle = ( i == 0 )? "red" : "white";
             this.game.context.fillRect(this.cell[i].x, this.cell[i].y, this.grid, this.grid);
         }
-
-        if(!this.endGame()) {
-            this.endGame();
-        }
     }
 
+    // Hàm sự kiện điều hướng di chuyển đối tượng Snake;
     direction() {
         document.addEventListener('keydown', (e) => {
             if(e.which == 37 && this.dx == 0){
@@ -84,21 +82,25 @@ class Snake{
         });
     }
 
+    // Hàm tăng độ dài đối tượng Snake khi ăn đối tượng Food;
     eat(x, y) {
         if(this.x == x && this.y == y){
             this.maxCells++;
             this.point += 1;
+            // console.log(this.point);
             return true;
         }
         return false;
     }
 
+    // Hàm check trạng thái của đối tượng Snake;
     endGame(){
-        for(let i = 1; i < this.cell.length; i++){
-            if(this.cell[0].x == this.cell[i].x && this.cell[0].y == this.cell[i].y){
+        for(let i = 1; i < this.cell.length; i++) {
+            if (this.x == this.cell[i].x && this.y == this.cell[i].y) {
                 return false;
             }
-        }
+            }
         return true;
     }
-}
+    }
+

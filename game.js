@@ -6,6 +6,7 @@ class Game{
         this.loop();
     }
 
+    // Hàm khởi tạo đối tượng Canvas, Snake, Food;
     init() {
         this.canvas = document.createElement('canvas');
         this.context = this.canvas.getContext('2d');
@@ -16,12 +17,14 @@ class Game{
         this.food = new Food(this);
     }
 
+    // Hàm vẽ l đối tượng Snake để di chuyển;
     loop() {
         this.update();
         this.draw();
-        setTimeout(() => this.loop(), 100);
+        setTimeout(() => this.loop(), 80);
     }
 
+    // Hàm cộng thêm độ dài của đối tượng sau khi ăn;
     update() {
         this.snake.update();
         if(this.snake.eat(this.food.x, this.food.y)){
@@ -29,15 +32,14 @@ class Game{
         }
     }
 
+    // Hàm vẽ đối tượng Snake, Food;
     draw() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
         this.snake.draw();
         this.food.draw();
     }
-    checkPoint() {
-        if (this.snake.endGame()) {
-            alert("T O A N G !!!"+" Diem cua chu day : "+ this.snake.point);
-        }
-    }
 }
+
+let game = new Game();
+
 
