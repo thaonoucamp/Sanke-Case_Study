@@ -36,11 +36,13 @@ class Snake{
             this.game.endGame();
         }
 
-        // Hàm cắt đuôi khi rắn di chuyển;
+        // tạo phần tử đầu tiên vào mảng;
         this.cell.unshift({
                                  x: this.x,
                                  y: this.y
         });
+
+        // cắt đuôi khi rắn di chuyển;
         if(this.cell.length > this.maxCells){
             this.cell.pop();
         }
@@ -52,7 +54,7 @@ class Snake{
     // Hàm vẽ tạo đối tượng Snake;
     draw() {
         for(let i = 0; i < this.cell.length; i++){
-            this.game.context.fillStyle = ( i == 0 )? "red" : "white";
+            this.game.context.fillStyle = ( i == 0 )? "red" : "yellow";
             this.game.context.fillRect(this.cell[i].x, this.cell[i].y, this.grid, this.grid);
         }
     }
@@ -87,7 +89,7 @@ class Snake{
         if(this.x == x && this.y == y){
             this.maxCells++;
             this.point += 1;
-            // console.log(this.point);
+            document.getElementById("point").value = this.point;
             return true;
         }
         return false;
@@ -99,8 +101,10 @@ class Snake{
             if (this.x == this.cell[i].x && this.y == this.cell[i].y) {
                 return false;
             }
-            }
+        }
         return true;
     }
-    }
+}
+
+
 

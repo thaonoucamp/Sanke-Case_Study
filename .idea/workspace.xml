@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/../caro-OOp/caro.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../remote-OOP/remote.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../remote-OOP/remote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snake/snake.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ARRAY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ARRAY/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ARRAY/addItem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ARRAY/addItem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ARRAY/coach.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ARRAY/coach.html" afterDir="false" />
@@ -42,7 +43,6 @@
       <change beforePath="$PROJECT_DIR$/../OOP_RAT_CAT/Cat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_RAT_CAT/Cat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP_RAT_CAT/Rat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_RAT_CAT/Rat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snake.html" beforeDir="false" afterPath="$PROJECT_DIR$/snake.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/snake.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addProduct/addProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/../addProduct/addProduct.js" afterDir="false" />
@@ -170,9 +170,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -189,7 +189,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../move-object-OOP/demo.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -210,7 +210,8 @@
       <workItem from="1609146435536" duration="4961000" />
       <workItem from="1609222948565" duration="18491000" />
       <workItem from="1609313615331" duration="48495000" />
-      <workItem from="1609811392131" duration="14022000" />
+      <workItem from="1609811392131" duration="16098000" />
+      <workItem from="1609897745235" duration="4951000" />
     </task>
     <servers />
   </component>
@@ -226,10 +227,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609256876021" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1609730919024">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1609841793817">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609730919024" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609841793817" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1609831266565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
