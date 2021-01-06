@@ -111,6 +111,7 @@
       <change beforePath="$PROJECT_DIR$/../function1/searchMinValueArr.html" beforeDir="false" afterPath="$PROJECT_DIR$/../function1/searchMinValueArr.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../function1/sumArr.html" beforeDir="false" afterPath="$PROJECT_DIR$/../function1/sumArr.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../good-cheap-fast/good-cheap-fast.html" beforeDir="false" afterPath="$PROJECT_DIR$/../good-cheap-fast/good-cheap-fast.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../loop-1.2/1-100.html" beforeDir="false" afterPath="$PROJECT_DIR$/../loop-1.2/1-100.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../loop-1.2/20-fibo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../loop-1.2/20-fibo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../loop-1.2/FizzBuzz.html" beforeDir="false" afterPath="$PROJECT_DIR$/../loop-1.2/FizzBuzz.html" afterDir="false" />
@@ -213,6 +214,7 @@
       <workItem from="1609811392131" duration="16098000" />
       <workItem from="1609897745235" duration="7680000" />
       <workItem from="1609907612068" duration="1988000" />
+      <workItem from="1609916385408" duration="343000" />
     </task>
     <servers />
   </component>
