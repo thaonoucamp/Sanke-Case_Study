@@ -43,7 +43,7 @@
       <change beforePath="$PROJECT_DIR$/../OOP_RAT_CAT/Cat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_RAT_CAT/Cat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP_RAT_CAT/Rat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_RAT_CAT/Rat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake.html" beforeDir="false" afterPath="$PROJECT_DIR$/snake.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food.js" beforeDir="false" afterPath="$PROJECT_DIR$/food.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/snake.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addProduct/addProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/../addProduct/addProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addProduct/all_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../addProduct/all_product.html" afterDir="false" />
@@ -195,6 +195,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Os\WebstormProjects\Snake-Case-Study" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Os\WebstormProjects\Snake-Case-Study" />
     </key>
@@ -211,7 +214,8 @@
       <workItem from="1609222948565" duration="18491000" />
       <workItem from="1609313615331" duration="48495000" />
       <workItem from="1609811392131" duration="16098000" />
-      <workItem from="1609897745235" duration="4951000" />
+      <workItem from="1609897745235" duration="7680000" />
+      <workItem from="1609907612068" duration="1157000" />
     </task>
     <servers />
   </component>
@@ -227,10 +231,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609256876021" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1609841793817">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1609905611704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609841793817" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609905611704" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1609831266565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

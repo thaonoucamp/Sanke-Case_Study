@@ -3,11 +3,11 @@ class Snake{
         this.game = game;
         this.x = 0;
         this.y = 0;
-        this.grid = 30;
-        this.dx = this.grid;
+        this.cell = 30;
+        this.dx = this.cell;
         this.dy = 0;
-        this.cell = [];
-        this.maxCells = 1;
+        this.maxCell = [];
+        this.minCells = 1;
         this.point = 0;
     }
 
@@ -37,14 +37,14 @@ class Snake{
         }
 
         // tạo phần tử đầu tiên vào mảng;
-        this.cell.unshift({
+        this.maxCell.unshift({
                                  x: this.x,
                                  y: this.y
         });
 
         // cắt đuôi khi rắn di chuyển;
-        if(this.cell.length > this.maxCells){
-            this.cell.pop();
+        if(this.maxCell.length > this.minCells){
+            this.maxCell.pop();
         }
 
         this.direction();
@@ -53,9 +53,9 @@ class Snake{
 
     // Hàm vẽ tạo đối tượng Snake;
     draw() {
-        for(let i = 0; i < this.cell.length; i++){
+        for(let i = 0; i < this.maxCell.length; i++){
             this.game.context.fillStyle = ( i == 0 )? "red" : "yellow";
-            this.game.context.fillRect(this.cell[i].x, this.cell[i].y, this.grid, this.grid);
+            this.game.context.fillRect(this.maxCell[i].x, this.maxCell[i].y, this.cell, this.cell);
         }
     }
 
@@ -63,23 +63,23 @@ class Snake{
     direction() {
         document.addEventListener('keydown', (e) => {
             if(e.which == 37 && this.dx == 0){
-                this.dx = -this.grid;
+                this.dx = -this.cell;
                 this.dy = 0;
             }
 
             else if(e.which == 38 && this.dy == 0){
                 this.dx = 0;
-                this.dy = -this.grid;
+                this.dy = -this.cell;
             }
 
             else if(e.which == 39 && this.dx == 0){
-                this.dx = this.grid;
+                this.dx = this.cell;
                 this.dy = 0;
             }
 
             else if(e.which == 40 && this.dy == 0){
                 this.dx = 0;
-                this.dy = this.grid;
+                this.dy = this.cell;
             }
         });
     }
@@ -87,7 +87,7 @@ class Snake{
     // Hàm tăng độ dài đối tượng Snake khi ăn đối tượng Food;
     eat(x, y) {
         if(this.x == x && this.y == y){
-            this.maxCells++;
+            this.minCells++;
             this.point += 1;
             document.getElementById("point").value = this.point;
             return true;
@@ -97,8 +97,8 @@ class Snake{
 
     // Hàm check trạng thái của đối tượng Snake;
     endGame(){
-        for(let i = 1; i < this.cell.length; i++) {
-            if (this.x == this.cell[i].x && this.y == this.cell[i].y) {
+        for(let i = 1; i < this.maxCell.length; i++) {
+            if (this.x == this.maxCell[i].x && this.y == this.maxCell[i].y) {
                 return false;
             }
         }
